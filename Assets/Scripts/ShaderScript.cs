@@ -37,10 +37,10 @@ public class ShaderScript : MonoBehaviour {
 
         if (time > 10)
         {
-            v += rate;
+           // v += rate;
         }
 
-        else   if (v > 0.06 || v < -0.20)
+           if (v > 0.06 || v < -0.20)
         {
             Debug.Log("I'm being called");
             rate = -rate;
