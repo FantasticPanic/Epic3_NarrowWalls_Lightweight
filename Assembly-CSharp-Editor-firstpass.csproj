@@ -435,6 +435,12 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
       <Project>{1181EED2-B363-51FD-F19D-C2EA7CF8A7E5}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{F7BAF7DC-1B85-56DF-78EC-B17F054013E4}</Project>      <Name>Oculus.VR.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{C4A5F4AE-C2D7-18AA-754B-7BC221630AD1}</Project>      <Name>Oculus.VR.Scripts.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{B610BD70-280B-518E-AC09-4259F527F18F}</Project>      <Name>Oculus.VR</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

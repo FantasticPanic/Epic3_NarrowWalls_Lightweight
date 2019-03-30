@@ -76,23 +76,6 @@
      <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPPropagationGeometryEditor.cs" />
      <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPPropagationMaterialEditor.cs" />
      <Compile Include="Assets\Oculus\Spatializer\Editor\ONSPReflectionCustomGUI.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRADBTool.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRBuild.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRDeviceSelector.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVREngineConfigurationUpdater.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRExpansionFileGenerator.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRGradleGeneration.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRLayerAttributeEditor.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRManifestPreprocessor.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRPlatformTool.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRPlatformToolSettings.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRPluginUpdater.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRPluginUpdaterStub.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectConfig.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRScreenshotWizard.cs" />
-     <Compile Include="Assets\Oculus\VR\Editor\OVRSystemProfilerPanel.cs" />
-     <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVRManagerEditor.cs" />
-     <Compile Include="Assets\Oculus\VR\Scripts\Editor\OVROverlayEditor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AntialiasingModelEditor.cs" />
@@ -575,6 +558,12 @@
       <Project>{A444D448-ABAB-F056-538E-B2DDE4094A90}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
       <Project>{4DE76443-C928-56B8-D3FD-64BC622FC5AD}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{F7BAF7DC-1B85-56DF-78EC-B17F054013E4}</Project>      <Name>Oculus.VR.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{C4A5F4AE-C2D7-18AA-754B-7BC221630AD1}</Project>      <Name>Oculus.VR.Scripts.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{B610BD70-280B-518E-AC09-4259F527F18F}</Project>      <Name>Oculus.VR</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

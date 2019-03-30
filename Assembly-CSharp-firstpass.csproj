@@ -435,6 +435,14 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/Boo.Lang.dll</HintPath>
  </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Oculus.VR.Editor.csproj">
+      <Project>{F7BAF7DC-1B85-56DF-78EC-B17F054013E4}</Project>      <Name>Oculus.VR.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.Scripts.Editor.csproj">
+      <Project>{C4A5F4AE-C2D7-18AA-754B-7BC221630AD1}</Project>      <Name>Oculus.VR.Scripts.Editor</Name>    </ProjectReference>
+    <ProjectReference Include="Oculus.VR.csproj">
+      <Project>{B610BD70-280B-518E-AC09-4259F527F18F}</Project>      <Name>Oculus.VR</Name>    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
